@@ -2,8 +2,6 @@ var gulp = require('gulp'),
     webserver = require('gulp-webserver');
 
 gulp.task('watch', function() {
-  gulp.watch('assets/js/**/*.js');
-  gulp.watch(['assets/css/**/*.css']);
   gulp.watch('*.html');
 });
 
