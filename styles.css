@@ -8,7 +8,7 @@ table{
 img, a img{
 	border:0; outline:none; text-decoration:none;
 }
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, ul, p{
 	margin:0; padding:0;
 }
 
@@ -40,7 +40,6 @@ table {
 }
 
 #hero-section h1{
-	margin: 0;
 	color: #fff;
 	font-family: Helvetica, sans-serif;
 	font-weight: 300;
@@ -57,10 +56,11 @@ table {
 	background: #F2F2F2;
 }
 
-#cta-container ul {
+#cta-container p {
 	margin: 20px 0;
+	line-height: 1.5;
 }
-
+	
 #cta-container a {
 	padding: 15px 20px;
 	background: #dd3626;
@@ -74,12 +74,15 @@ table {
 	cursor: pointer;
 }
 
-#buttons{
-	margin: 20px 0;
+#cta-container ul {
+	width: 50%;
+	list-style: none;
+	margin: 0 auto;
 }
 
-#buttons td {
-	float: left;
+#buttons p {
+	display: inline-block;
+	margin: 0 10px;
 }
 
 #footer-container {
@@ -92,6 +95,7 @@ table {
 #footer-container p {
 	margin: 0;
 	color: #555;
+	margin: 20px 0;
 }
 
 
@@ -101,7 +105,6 @@ table {
 
 
 #footer-container h2 {
-	margin-bottom: 20px;
 	font-weight: 300;
 	font-size: 1.5em;
 	color: #555;
@@ -112,7 +115,6 @@ table {
 	font-size: 1.2em;
 	font-weight: 300;
 	display: inline-block;
-	margin: 20px 0;
 	color: #dd3626;
 	padding: 15px 20px;
 	border: 2px solid #dd3626;

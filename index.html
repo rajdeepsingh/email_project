@@ -1,124 +1,7 @@
 <html>
 	
 	<head>
-		<style>
-			body, #table-container, #cell-container{
-	height:100% !important; margin:0; padding:0; width:100% !important;
-}
-
-table{
-	border-collapse:collapse;
-}
-img, a img{
-	border:0; outline:none; text-decoration:none;
-}
-h1, h2, h3, h4, h5, h6{
-	margin:0; padding:0;
-}
-
-body {
-	margin: 0;
-}
-table {
-	color: #111111;
-}
-
-.container {
-	width: 700px;
-	background: #dd3626;
-	margin: 0 auto;
-	font-family: Helvetica, sans-serif;
-	font-size: 1.2em;
-	color: #111111;
-}
-
-#table-container {
-	border: 20px solid #dd3626;
-	background: #dd3626;
-}
-
-
-#hero-section {
-	padding: 20px;
-	background: rgba(0,0,0,0.3);
-}
-
-#hero-section h1{
-	margin: 0;
-	color: #fff;
-	font-family: Helvetica, sans-serif;
-	font-weight: 300;
-	font-size: 2em;
-}
-
-#hero-section img {
-	border-radius: 50%;
-	margin: 20px 0;
-}
-
-#cta-container {
-	padding: 20px;
-	background: #F2F2F2;
-}
-
-#cta-container ul {
-	margin: 20px 0;
-}
-
-#cta-container a {
-	padding: 15px 20px;
-	background: #dd3626;
-	color: #fff;
-	border-radius: 25px;
-	text-align: center;
-	font-size: 1em;
-	text-decoration: none;
-	display: inline-block;
-	font-weight: 300;
-	cursor: pointer;
-}
-
-#buttons{
-	margin: 20px 0;
-}
-
-#buttons td {
-	float: left;
-}
-
-#footer-container {
-	padding: 20px;
-	background: #262221;
-	color: #A2A09F;
-	font-size: 0.8em;
-}
-
-#footer-container p {
-	margin: 0;
-	color: #A2A09F;
-}
-
-#footer-container h2 {
-	margin-bottom: 20px;
-	font-weight: 300;
-	font-size: 1.5em;
-	color: #A2A09F;
-}
-
-#footer-container a {
-	text-decoration: none;
-	font-size: 1.2em;
-	font-weight: 300;
-	display: inline-block;
-	margin: 20px 0;
-	color: #dd3626;
-	padding: 15px 20px;
-	border: 2px solid #dd3626;
-	border-radius: 25px;
-	text-align: center;
-	background: #262221;
-}
-		</style>
+	<link rel="stylesheet" href="styles.css">
 	</head>
 
 	<body>
@@ -143,7 +26,7 @@ table {
 										</tr>
 										<tr>
 											<td align="center" valign="top">
-												<h1>Thanks for subscribing, [firstname]</h1>
+												<h1>Hi, [firstname]</h1>
 											</td>
 										</tr>
 									</table>
@@ -156,30 +39,18 @@ table {
 									<table border="0" cellpadding="0" cellspacing="0" height: "100%" width ="100%">
 										<tr>
 											<td valign="top">
-												<p>Thank you for your new subscription order! We try to make managing subscriptions as easy as possible. So if you ever want to change or update anything there's a page on our website that allows you to do all kinds of fun stuff.</p>
+												<p>You have a subscription order that is scheduled to ship out but it appears we are not able to process the payment to the credit card on file. It may just be the a expiration date needs to be updated.</p>
 											</td>
 										</tr>
 										<tr>
 											<td valign="top">
-												<ul style="list-style: none;">
-											        <li>&#10003; Pause or cancel your subscription</li>
-											        <li>&#10003; Change quantities</li>
-											        <li>&#10003; Change your shipping frequency</li>
-											        <li>&#10003; Add products to your subscription</li>
-											        <li>&#10003; Update billing and shipping info</li>
-											        <li>&#10003; And much more!</li>
-    											</ul>
+												<p>The card that we are attempting to process the order to ends in [creditcardnumber] and it's for a total of [order_total] If you know this is a good cart we will automatically try again in a couple days. If you'd like to edit the cart you can login here and update the credit card information:</p>
 											</td>
 										</tr>
 										<tr>
 											<td valign="top">
-												<p>You'll need to have a customer account on our site, registered with the same email address I'm emailing you at now, [email_address].</p>
-											</td>
-										</tr>
-										<tr>
-											<td valign="top">
-												<table border="0" cellpadding="0" cellspacing="0" height: "100%" width ="100%" id="buttons">
-													<tr>
+												<table border="0" cellpadding="0" cellspacing="0" height= "100%" id="buttons">
+													<tr align="center">
 														<td valign="center">
 															<a href="[login_url]">LOG IN</a>
 														</td>
@@ -195,7 +66,7 @@ table {
 										</tr>
 										<tr>
 											<td valign="top">
-												<p>Thanks again for your order! If you have any questions, don't hesitate to email us.</p>
+												<p>If you have any questions don't hesitate to ask.</p>
 											</td>
 										</tr>
 									</table>
