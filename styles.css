@@ -21,7 +21,7 @@ table {
 
 .container {
 	width: 700px;
-	background: #dd3626;
+	background: #ff6c00;
 	margin: 0 auto;
 	font-family: Helvetica, sans-serif;
 	font-size: 1.2em;
@@ -29,8 +29,8 @@ table {
 }
 
 #table-container {
-	border: 20px solid #dd3626;
-	background: #dd3626;
+	border: 20px solid #ff9b16;
+	background: #ff6c00;
 }
 
 
@@ -64,8 +64,8 @@ table {
 	
 #cta-container a {
 	padding: 15px 20px;
-	background: #dd3626;
-	color: #fff;
+	background: #ff9b16;
+	color: #555;
 	border-radius: 25px;
 	text-align: center;
 	font-size: 1em;
@@ -116,9 +116,9 @@ table {
 	font-size: 1.2em;
 	font-weight: 300;
 	display: inline-block;
-	color: #dd3626;
+	color: #555;
 	padding: 15px 20px;
-	border: 2px solid #dd3626;
+	border: 2px solid #ff9b16;
 	border-radius: 25px;
 	text-align: center;
 }
