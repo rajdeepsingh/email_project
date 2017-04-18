@@ -1,8 +1,8 @@
 <html>
 	
 	<head>
-		<style type="text/css">
-			body, #table-container, #cell-container{
+		<style>
+		body, #table-container, #cell-container{
 	height:100% !important; margin:0; padding:0; width:100% !important;
 }
 
@@ -20,38 +20,39 @@ body {
 	margin: 0;
 }
 table {
-	color: #111111;
+	color: #101010;
 }
 
 .container {
 	width: 700px;
-	background: #ff6c00;
 	margin: 0 auto;
 	font-family: Helvetica, sans-serif;
 	font-size: 1.2em;
-	color: #111111;
+	color: #101010;
+}
+
+#cell-container {
+	padding: 0;
 }
 
 #table-container {
-	border: 20px solid #ff9b16;
-	background: #ff6c00;
+	border: 20px solid #999;
+	background: #FFF;
 }
 
 
 #hero-section {
+	color: #101010;
 	padding: 20px;
-	background: rgba(0,0,0,0.3);
 }
 
 #hero-section h1{
-	color: #fff;
 	font-family: Helvetica, sans-serif;
 	font-weight: 300;
 	font-size: 2em;
 }
 
 #hero-section img {
-	border-radius: 50%;
 	margin: 20px 0;
 }
 
@@ -68,8 +69,8 @@ table {
 	
 #cta-container a {
 	padding: 15px 20px;
-	background: #ff9b16;
-	color: #555;
+	background: #999;
+	color: #FFF;
 	border-radius: 25px;
 	text-align: center;
 	font-size: 1em;
@@ -92,7 +93,7 @@ table {
 
 #footer-container {
 	padding: 20px;
-	background: #AAA;
+	background: #F2F2F2;
 	color: #575757;
 	font-size: 0.8em;
 }
@@ -116,7 +117,7 @@ table {
 	display: inline-block;
 	color: #555;
 	padding: 15px 20px;
-	border: 2px solid #ff9b16;
+	border: 2px solid #999;
 	border-radius: 25px;
 	text-align: center;
 }
@@ -140,12 +141,12 @@ table {
 										</tr>
 										<tr>
 											<td align="center" valign="top">
-												<img src="http://i64.tinypic.com/2mg9x7s.png" alt="" width="200" height="200"/>
+												<img src="https://ibin.co/3GcRlcNXhOna.png" alt="" width="200" height="200"/>
 											</td>
 										</tr>
 										<tr>
 											<td align="center" valign="top">
-												<h1>Hi, [firstname]</h1>
+												<h1>Thanks for subscribing, [firstname]</h1>
 											</td>
 										</tr>
 									</table>
@@ -156,13 +157,26 @@ table {
                             	<td align="center" valign="top" id="cta-container">
 
 									<table border="0" cellpadding="0" cellspacing="0" height= "100%" width ="100%" align="center">
+										<tr>
 											<td valign="top" align="center">
-												<p>You have a subscription order that is scheduled to ship out but it appears we are not able to process the payment to the credit card on file. It may just be the a expiration date needs to be updated.</p>
+												<p>Thank you for your new subscription order! We try to make managing subscriptions as easy as possible. So if you ever want to change or update anything there's a page on our website that allows you to do all kinds of fun stuff.</p>
+											</td>
+										</tr>
+										<tr>
+											<td valign="top" align="left">
+												<ul style="">
+											        <li>&#10003; Pause or cancel your subscription</li>
+											        <li>&#10003; Change quantities</li>
+											        <li>&#10003; Change your shipping frequency</li>
+											        <li>&#10003; Add products to your subscription</li>
+											        <li>&#10003; Update billing and shipping info</li>
+											        <li>&#10003; And much more!</li>
+    											</ul>
 											</td>
 										</tr>
 										<tr>
 											<td valign="top" align="center">
-												<p>The card that we are attempting to process the order to ends in [creditcardnumber] and it's for a total of [order_total] If you know this is a good cart we will automatically try again in a couple days. If you'd like to edit the cart you can login here and update the credit card information:</p>
+												<p>You'll need to have a customer account on our site, registered with the same email address I'm emailing you at now, [email_address].</p>
 											</td>
 										</tr>
 										<tr>
@@ -172,6 +186,11 @@ table {
 												<p>OR</p>
 											
 												<a href="[store_url]/account/register">CREATE AN ACCOUNT</a>
+											</td>
+										</tr>
+										<tr>
+											<td valign="top" align="center">
+												<p>Thanks again for your order! If you have any questions, don't hesitate to email us.</p>
 											</td>
 										</tr>
 									</table>

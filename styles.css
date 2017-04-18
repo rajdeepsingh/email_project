@@ -16,38 +16,39 @@ body {
 	margin: 0;
 }
 table {
-	color: #111111;
+	color: #101010;
 }
 
 .container {
 	width: 700px;
-	background: #ff6c00;
 	margin: 0 auto;
 	font-family: Helvetica, sans-serif;
 	font-size: 1.2em;
-	color: #111111;
+	color: #101010;
+}
+
+#cell-container {
+	padding: 0;
 }
 
 #table-container {
-	border: 20px solid #ff9b16;
-	background: #ff6c00;
+	border: 20px solid #999;
+	background: #FFF;
 }
 
 
 #hero-section {
+	color: #101010;
 	padding: 20px;
-	background: rgba(0,0,0,0.3);
 }
 
 #hero-section h1{
-	color: #fff;
 	font-family: Helvetica, sans-serif;
 	font-weight: 300;
 	font-size: 2em;
 }
 
 #hero-section img {
-	border-radius: 50%;
 	margin: 20px 0;
 }
 
@@ -64,8 +65,8 @@ table {
 	
 #cta-container a {
 	padding: 15px 20px;
-	background: #ff9b16;
-	color: #555;
+	background: #999;
+	color: #FFF;
 	border-radius: 25px;
 	text-align: center;
 	font-size: 1em;
@@ -88,7 +89,7 @@ table {
 
 #footer-container {
 	padding: 20px;
-	background: #AAA;
+	background: #F2F2F2;
 	color: #575757;
 	font-size: 0.8em;
 }
@@ -98,12 +99,6 @@ table {
 	color: #555;
 	margin: 20px 0;
 }
-
-
-
-
-
-
 
 #footer-container h2 {
 	font-weight: 300;
@@ -118,7 +113,7 @@ table {
 	display: inline-block;
 	color: #555;
 	padding: 15px 20px;
-	border: 2px solid #ff9b16;
+	border: 2px solid #999;
 	border-radius: 25px;
 	text-align: center;
 }
